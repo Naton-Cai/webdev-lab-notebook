@@ -7,22 +7,33 @@
     <link rel="stylesheet" href="../_styles/styles.css" />
   </head>
   <body>
-    <h1>01 - Form</h1>
-    <form action="/submit">
-      <span>Name</span>
-      <input type="text" />
-      <br /><br />
-      <label>
-        Email
-        <input type="text" />
-      </label>
-      <br /><br />
-      <span>Favorite Character</span>
-      <div><input type="radio" id="spongebob" />Spongebob</div>
-      <div><input type="radio" id="patrick" />Patrick</div>
-      <div><input type="radio" id="sandy" />Sandy</div>
-      <br />
-      <button>Submit</button>
-    </form>
+    <header><h1>01 - Form</h1></header>
+    <main>
+      <form action="/submit">
+        <label><span>Name</span> <input type="text" />></label>
+        <br /><br />
+        <label>
+          Email
+          <input type="text" />
+        </label>
+        <br /><br />
+        <span>Favorite Character</span>
+        <div>
+          <label for="spongebob">
+            <input type="radio" id="spongebob" />spongebob
+          </label>
+        </div>
+        <div>
+          <label for="patrick">
+            <input type="radio" id="patrick" />Patrick
+          </label>
+        </div>
+        <div>
+          <label for="sandy"><input type="radio" id="sandy" />Sandy</label>
+        </div>
+        <br />
+        <button>Submit</button>
+      </form>
+    </main>
   </body>
 </html>

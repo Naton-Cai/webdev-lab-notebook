@@ -10,26 +10,25 @@
     <header><h1>01 - Form</h1></header>
     <main>
       <form action="/submit">
-        <label><span>Name</span> <input type="text" />></label>
+        <label for="name"><span>Name</span></label>
+        <input type="text" id="name" />
         <br /><br />
-        <label>
-          Email
-          <input type="text" />
-        </label>
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+
         <br /><br />
         <span>Favorite Character</span>
-        <div>
-          <label for="spongebob">
-            <input type="radio" id="spongebob" />spongebob
-          </label>
+        <div style="margin: 10px">
+          <input style="transform: scale(2)" type="radio" id="spongebob" />
+          <label for="spongebob">Spongebob</label>
         </div>
-        <div>
-          <label for="patrick">
-            <input type="radio" id="patrick" />Patrick
-          </label>
+        <div style="margin: 10px">
+          <input type="radio" style="transform: scale(2)" id="patrick" />
+          <label for="patrick">Patrick</label>
         </div>
-        <div>
-          <label for="sandy"><input type="radio" id="sandy" />Sandy</label>
+        <div style="margin: 10px">
+          <input type="radio" style="transform: scale(2)" id="sandy" />
+          <label for="sandy">Sandy</label>
         </div>
         <br />
         <button>Submit</button>

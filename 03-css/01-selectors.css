@@ -14,8 +14,50 @@ li[class] {
   color: var(--red);
 }
 
+li[class="dog"] {
+color: var(--magenta)
+}
+
+li[id="cat"] {
+color: var(--teal)
+}
+
+li[class="parrot"] {
+color: var(--green)
+}
+
+li[class="donkey"] {
+color: var(--royalblue)
+}
+
+li[class="hedgehog"] {
+color: var(--magenta)
+}
+
+li[class="cat dog parrot"] {
+color: var(--royalblue)
+}
+
+
 /* Use descendant, child, and sibling selectors for the second part */
 
 section li {
   color: var(--green);
+  
+}
+
+section ol > li.first {
+  color: var(--green);
+}
+
+section ol > li.second {
+  color: var(--darkmagenta);
+}
+
+section li.second + li {
+  color: var(--royalblue);
+}
+
+section li.second + li + li {
+  color: var(--darkmagenta);
 }

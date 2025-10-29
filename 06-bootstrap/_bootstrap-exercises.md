@@ -7,7 +7,7 @@
 
 ## <a id="ex01"></a> Exercise 01 - Cards
 
-Recreate the layout below using Boostrap card classes. 
+Recreate the layout below using Boostrap card classes.
 
 <kbd><img src="../_assets/bootstrap-exercises/bootstrap-ex01-cards.png" height=200 alt="screenshot of a card layout"></kbd>
 

@@ -4,6 +4,10 @@ const replaceItems = (input) => {
   // for reference, see the MDN "Regular Expressions" entry:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
+  const goldReg = /gold/gi;
+  const wanderReg = /wander/gi;
+  input = input.replace(goldReg, "SHINY")
+  input = input.replace(wanderReg, "roam")
   return input;
 };
 

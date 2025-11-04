@@ -3,7 +3,7 @@ const formatItems = (input) => {
 
   // for reference, see the MDN Number page:
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-
+  input = input.map(e=>e.toFixed(3)).join(', ');
   return input;
 };
 

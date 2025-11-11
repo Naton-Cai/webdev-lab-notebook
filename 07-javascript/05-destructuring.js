@@ -1,7 +1,10 @@
 const destructureItems = (input) => {
   // destructure the name and parents of the character and format the output as shown
+  const result = `${input.first} ${input.last}
+  daughter of
+  ${input.allegiance.parents.mother} and ${input.allegiance.parents.father}`;
 
-  return input;
+  return result
 };
 
 const sansa = {

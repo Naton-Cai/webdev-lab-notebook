@@ -6,6 +6,8 @@ let input = document.querySelector('#userInput1');
 let copy = document.querySelector('#copy');
 let output = document.querySelector('.output');
 
+
+
 // add an event listener on the target element
 copy.addEventListener('click', eventClick);
 
